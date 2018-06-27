@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Maxima
+GenericName=Indicator with window controls
+Comment=Maximize your screen realstate
+Categories=Utility;
+Exec=com.github.fernandofreamunde.maxima
+Icon=com.github.fernandofreamunde.maxima
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=maxima
+Keywords=maxima;maximize;close;windows;
