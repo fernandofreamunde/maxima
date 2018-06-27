@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Your Name <you@email.com> -->
+<component type="desktop">
+  <id>com.github.fernandofreamunde.maxima.desktop</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Maxima</name>
+  <summary>An indicator to close and maximize windows</summary>
+  <description>
+    <p>Maximize your screen realtate when your apps are maximized by removing the header bar. You will need the window controllers if you do so, for that we provide them in an indicator.</p>
+  </description>
+</component>
