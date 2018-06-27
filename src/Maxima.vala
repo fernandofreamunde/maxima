@@ -3,14 +3,14 @@
 
 using AppIndicator;
 
-public class IndicatorExample {
+public class Maxima {
     public static int main(string[] args) {
         Gtk.init(ref args);
 
         var indicator = new Indicator("Maxima", "window-close", IndicatorCategory.SYSTEM_SERVICES);
 
         indicator.set_status(IndicatorStatus.ACTIVE);
-        indicator.set_attention_icon("indicator-messages-new");
+        indicator.set_attention_icon("window-close");
 
         var menu = new Gtk.Menu();
 
