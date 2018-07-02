@@ -1,9 +1,9 @@
 Format: http://dep.debian.net/deps/dep5
-Upstream-Name: cmake-hello-world
-Source: https://elementaryos.org
+Upstream-Name: com.github.fernandofreamunde.maxima
+Source: https://github.com/fernandofreamunde/maxima
 
-Files: *
-Copyright: 2013 elementary LLC.
+Files: src/* data/* debian/*
+Copyright: 2018 Fernando Andrade <fernandofreamunde@gmail.com>
 License: GPL-3.0+
 
 License: GPL-3.0+
