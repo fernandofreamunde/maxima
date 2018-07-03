@@ -18,7 +18,7 @@ public class Maxima {
         maximize_toggle_menuItem.activate.connect(() => {
             string command = "xdotool key super+Up";
             AppInfo.create_from_commandline (command, null, AppInfoCreateFlags.NONE).launch (null, null);
-            stdout.printf("Toggle Maximize\n");
+            info("Toggle Maximize\n");
         });
         maximize_toggle_menuItem.show();
         menu.append(maximize_toggle_menuItem);
